@@ -2,15 +2,13 @@ public class Mensajes {
     int id_mensaje;
     String mensaje;
     String autor_mensaje;
-    String fecha_mensaje;
 
     public Mensajes() {
     }
 
-    public Mensajes(String mensaje, String autor_mensaje, String fecha_mensaje) {
+    public Mensajes(String mensaje, String autor_mensaje) {
         this.mensaje = mensaje;
         this.autor_mensaje = autor_mensaje;
-        this.fecha_mensaje = fecha_mensaje;
     }
 
     public int getId_mensaje() {
@@ -37,13 +35,6 @@ public class Mensajes {
         this.autor_mensaje = autor_mensaje;
     }
 
-    public String getFecha_mensaje() {
-        return fecha_mensaje;
-    }
-
-    public void setFecha_mensaje(String fecha_mensaje) {
-        this.fecha_mensaje = fecha_mensaje;
-    }
 
 
 }

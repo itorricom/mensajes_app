@@ -13,6 +13,7 @@ public class Inicio {
             System.out.println("3. editar mensaje");
             System.out.println("4. eliminar mensaje");
             System.out.println("5. salir");
+            System.out.println(">> ");
             //leemos opcion de usuario
             opcion = sc.nextInt();
 
